@@ -16,7 +16,6 @@ import {
   InboxNotificationList,
   LiveblocksUIConfig,
 } from "@liveblocks/react-ui";
-import { useUser } from "@clerk/nextjs";
 import { Button } from "./ui/button";
 
 const Notifications = () => {
