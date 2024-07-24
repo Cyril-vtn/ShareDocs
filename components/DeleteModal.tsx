@@ -38,12 +38,12 @@ export const DeleteModal = ({ roomId }: DeleteModalProps) => {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button className="bg-transparent w-fit h-fit transition-all hover:bg-dark-400 rounded-full p-2 my-1">
+        <Button className="bg-transparent w-fit h-fit transition-all hover:bg-dark-400 rounded-full p-1 my-1">
           <Image
             src="/assets/icons/delete.svg"
             alt="delete"
-            width={20}
-            height={20}
+            width={18}
+            height={18}
           />
         </Button>
       </DialogTrigger>
