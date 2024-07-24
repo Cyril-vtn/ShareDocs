@@ -91,7 +91,7 @@
   }
 
   .header {
-    @apply min-h-[92px] min-w-full flex-nowrap bg-dark-100 flex w-full items-center justify-between gap-2 px-4;
+    @apply min-h-[60px] min-w-full flex-nowrap bg-dark-100 flex w-full items-center justify-between gap-2 px-4;
   }
 
   .document-list-container {
@@ -127,7 +127,7 @@
   }
 
   .share-input {
-    @apply h-11 flex-1 border-none bg-dark-200 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
+    @apply h-[40px] flex-1 border-none bg-dark-200 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
   }
 
   .remove-btn {
