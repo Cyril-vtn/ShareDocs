@@ -91,7 +91,7 @@ const ShareModal = ({
           <Button
             type="submit"
             onClick={shareDocumentHandler}
-            className="gradient-orange flex h-full gap-1 px-5 "
+            className="gradient-orange flex gap-1 px-4"
             disabled={loading}
           >
             {loading ? "Envoi..." : "Ajouter"}
